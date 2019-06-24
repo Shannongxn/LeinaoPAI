@@ -7,9 +7,9 @@ RUN pip install --upgrade pip
 
 RUN pip install torch==0.4.1 \
             numpy \
-            tqdm == 4.19.1 \
+            tqdm==4.19.1 \
             colorlog \
             boto3 \
             nibabel 
 
-RUN apt install tmux     
+RUN apt install -y tmux     
